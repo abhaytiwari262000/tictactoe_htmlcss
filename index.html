@@ -402,14 +402,24 @@
 
         if (result === 0) {
           document.getElementById("result").innerHTML = "O Wins!";
+          intArray = [
+            [1, 1, 1],
+            [1, 1, 1],
+            [1, 1, 1],
+          ];
           setTimeout(() => {
             window.location.reload();
-          }, 100);
+          }, 2000);
         } else if (result === 1) {
           document.getElementById("result").innerHTML = "X Wins!";
+          intArray = [
+            [1, 1, 1],
+            [1, 1, 1],
+            [1, 1, 1],
+          ];
           setTimeout(() => {
             window.location.reload();
-          }, 100);
+          }, 2000);
         }
       }
     </script>
